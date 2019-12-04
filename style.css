@@ -194,3 +194,29 @@ a.ftr-link{
 	padding-left: 27px;
 	text-decoration: none;
 }
+
+a.ftr-link:hover{
+	text-decoration: underline;
+}
+
+#ftr-right{
+	float: right;
+	margin-right: 30px;
+}
+
+.sign-in{
+	color: white;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+ 	display: inline-block;
+ 	line-height: 28px;
+ 	padding: 0 12px;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border-radius: 2px;
+}
+
+.sign-in:active{
+	box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
+	background: -webkit-linear-gradient(top,#3c7ae4,#3f76d3);
+}
